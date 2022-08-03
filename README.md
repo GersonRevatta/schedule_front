@@ -1,29 +1,36 @@
-# schedule_front 
+#
+## Resumen
+Aplicación, para agendar horarios de monitoreo por usuario, 
+a partir de contratos semanales.  
+- Contratos semanales: Van a estar determinados por horas determinadas por el cliente(Empresa a la que se le va a brindar el servicio)  
+- Usuario: Va a poder hacer un inicio de session y agendar su horario de monitoreo, por semana y por cliente(Empresa)
 
-This template should help get you started developing with Vue 3 in Vite.
+###### Imagen
+![image](https://active-web-bravo-izquierdo.s3.us-east-2.amazonaws.com/WhatsApp+Image+2022-08-03+at+3.25.23+AM.jpeg)
 
-## Recommended IDE Setup
+##### Componentes: 
+- Navbar: Links  
+- Index: Pagina principal, para determinar la semana y el cliente, por el cual se renderizara el calendario  
+- Calendar: Desplegara un calendario  
+- Login: Inicio de sesión 
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Ejecutar Proyecto 
+node versions
+```
+v14.17.3
+```
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
+Instalar
+```
 npm install
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
+Editar archivo .env
+```
+VITE_URL_PATH="http://localhost:3000/api/v1/"
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
+Ejecutar , y click [Link](http://localhost:8080/)
+```
+npm run dev -- --host --port=8080
 ```
