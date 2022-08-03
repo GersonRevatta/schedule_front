@@ -34,3 +34,7 @@ Ejecutar , y click [Link](http://localhost:8080/)
 ```
 npm run dev -- --host --port=8080
 ```
+## Nota
+Usuario de prueba  
+user: demo@gmail.com  
+password: demodemo
