@@ -17,7 +17,7 @@ a partir de contratos semanales.
 ### Ejecutar Proyecto 
 node versions
 ```
-v14.17.3
+v16.16.0
 ```
 
 Instalar
